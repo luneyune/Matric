@@ -11,7 +11,7 @@ int main()
     int stop_flag = 1;
 
     printf("Введите количество строк и столбцов: ");
-    scanf("%d %d", &m, &n);
+    scanf("%d%d", &m, &n);
 
     error = matrix_init(&matrix, m, n);
     if (error != MRX_OK) {
